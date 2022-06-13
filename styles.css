@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+   background-image: url(./fundo-de-tela.jpg);
+   background-size: cover;
+}
+
+h1 {
+    color: black;
+    background-color: white;
+    border: 5px solid red;
+}
+form {
+    background-image: url(./fundo-de-tela-form.jpg);
+    background-size: cover;
+    width: 25%;
+    min-width: 350px;
+    background-color: white;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: block;
+    padding: 90px 0;
+
+}
+
+input, textarea {
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+    width: 30%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font: bold;
+    background-color:peachpuff;
+    border-radius: 18px;
+
+}
+
+button:hover {
+    background-color:rgb(55, 19, 185);
+    width: 50%;
+    color: white;
+
+}
